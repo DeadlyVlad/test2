@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    }
+
+.body {
+    height: 100vh;
+    display: flex;
+}
+
+.header {
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    background: yellow;
+}
+
+.main {
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: orange;
+}
+
+.footer {
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    background: red;
+}
+
+.text-style {
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Arial', sans-serif; 
+}
